@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/configuracoes"
+            android:title="@string/configuracoes"    >
+        </item>
+        <item android:id="@+id/search"
+            android:title="Search">
+        </item>
+        <item android:id="@+id/gallery"
+            android:title="Gallery">
+        </item>
+        <item android:id="@+id/call"
+            android:title="Call"    >
+
+        </item>
+
+
+    </group>
+
+
+</menu>
